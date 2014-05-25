@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183EAA2F1930EB5700EA6F31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183EAA2E1930EB5700EA6F31 /* Foundation.framework */; };
+		183EAA311930EB5700EA6F31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183EAA301930EB5700EA6F31 /* CoreGraphics.framework */; };
+		183EAA331930EB5700EA6F31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183EAA321930EB5700EA6F31 /* UIKit.framework */; };
+		183EAA391930EB5700EA6F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183EAA371930EB5700EA6F31 /* InfoPlist.strings */; };
+		183EAA3B1930EB5700EA6F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EAA3A1930EB5700EA6F31 /* main.m */; };
+		183EAA3F1930EB5700EA6F31 /* NDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EAA3E1930EB5700EA6F31 /* NDAppDelegate.m */; };
+		183EAA411930EB5700EA6F31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183EAA401930EB5700EA6F31 /* Images.xcassets */; };
+		183EAA481930EB5700EA6F31 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183EAA471930EB5700EA6F31 /* XCTest.framework */; };
+		183EAA491930EB5700EA6F31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183EAA2E1930EB5700EA6F31 /* Foundation.framework */; };
+		183EAA4A1930EB5700EA6F31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183EAA321930EB5700EA6F31 /* UIKit.framework */; };
+		183EAA521930EB5700EA6F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183EAA501930EB5700EA6F31 /* InfoPlist.strings */; };
+		183EAA541930EB5700EA6F31 /* NDOverlayViewControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EAA531930EB5700EA6F31 /* NDOverlayViewControllerExampleTests.m */; };
+		18E8D9D51930ED1F000ED748 /* NDOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8D9D41930ED1F000ED748 /* NDOverlayViewController.m */; };
+		18E8D9D81930EF67000ED748 /* UIViewController+NDOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8D9D71930EF67000ED748 /* UIViewController+NDOverlayViewController.m */; };
+		18E8D9DB193152F2000ED748 /* NDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8D9DA193152F2000ED748 /* NDViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183EAA4B1930EB5700EA6F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183EAA231930EB5700EA6F31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183EAA2A1930EB5700EA6F31;
+			remoteInfo = NDOverlayViewControllerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183EAA2B1930EB5700EA6F31 /* NDOverlayViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NDOverlayViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183EAA2E1930EB5700EA6F31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		183EAA301930EB5700EA6F31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		183EAA321930EB5700EA6F31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		183EAA361930EB5700EA6F31 /* NDOverlayViewControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NDOverlayViewControllerExample-Info.plist"; sourceTree = "<group>"; };
+		183EAA381930EB5700EA6F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183EAA3A1930EB5700EA6F31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183EAA3C1930EB5700EA6F31 /* NDOverlayViewControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NDOverlayViewControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		183EAA3D1930EB5700EA6F31 /* NDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDAppDelegate.h; sourceTree = "<group>"; };
+		183EAA3E1930EB5700EA6F31 /* NDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDAppDelegate.m; sourceTree = "<group>"; };
+		183EAA401930EB5700EA6F31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		183EAA461930EB5700EA6F31 /* NDOverlayViewControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NDOverlayViewControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183EAA471930EB5700EA6F31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		183EAA4F1930EB5700EA6F31 /* NDOverlayViewControllerExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NDOverlayViewControllerExampleTests-Info.plist"; sourceTree = "<group>"; };
+		183EAA511930EB5700EA6F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183EAA531930EB5700EA6F31 /* NDOverlayViewControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDOverlayViewControllerExampleTests.m; sourceTree = "<group>"; };
+		18E8D9D31930ED1F000ED748 /* NDOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDOverlayViewController.h; sourceTree = "<group>"; };
+		18E8D9D41930ED1F000ED748 /* NDOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDOverlayViewController.m; sourceTree = "<group>"; };
+		18E8D9D61930EF67000ED748 /* UIViewController+NDOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NDOverlayViewController.h"; sourceTree = "<group>"; };
+		18E8D9D71930EF67000ED748 /* UIViewController+NDOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NDOverlayViewController.m"; sourceTree = "<group>"; };
+		18E8D9D9193152F2000ED748 /* NDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDViewController.h; sourceTree = "<group>"; };
+		18E8D9DA193152F2000ED748 /* NDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183EAA281930EB5700EA6F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183EAA311930EB5700EA6F31 /* CoreGraphics.framework in Frameworks */,
+				183EAA331930EB5700EA6F31 /* UIKit.framework in Frameworks */,
+				183EAA2F1930EB5700EA6F31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183EAA431930EB5700EA6F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183EAA481930EB5700EA6F31 /* XCTest.framework in Frameworks */,
+				183EAA4A1930EB5700EA6F31 /* UIKit.framework in Frameworks */,
+				183EAA491930EB5700EA6F31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183EAA221930EB5700EA6F31 = {
+			isa = PBXGroup;
+			children = (
+				183EAA341930EB5700EA6F31 /* NDOverlayViewControllerExample */,
+				183EAA4D1930EB5700EA6F31 /* NDOverlayViewControllerExampleTests */,
+				183EAA2D1930EB5700EA6F31 /* Frameworks */,
+				183EAA2C1930EB5700EA6F31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183EAA2C1930EB5700EA6F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183EAA2B1930EB5700EA6F31 /* NDOverlayViewControllerExample.app */,
+				183EAA461930EB5700EA6F31 /* NDOverlayViewControllerExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183EAA2D1930EB5700EA6F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183EAA2E1930EB5700EA6F31 /* Foundation.framework */,
+				183EAA301930EB5700EA6F31 /* CoreGraphics.framework */,
+				183EAA321930EB5700EA6F31 /* UIKit.framework */,
+				183EAA471930EB5700EA6F31 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183EAA341930EB5700EA6F31 /* NDOverlayViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				18E8D9D21930ECC0000ED748 /* NDOverlayViewController */,
+				183EAA3D1930EB5700EA6F31 /* NDAppDelegate.h */,
+				183EAA3E1930EB5700EA6F31 /* NDAppDelegate.m */,
+				18E8D9D9193152F2000ED748 /* NDViewController.h */,
+				18E8D9DA193152F2000ED748 /* NDViewController.m */,
+				183EAA401930EB5700EA6F31 /* Images.xcassets */,
+				183EAA351930EB5700EA6F31 /* Supporting Files */,
+			);
+			path = NDOverlayViewControllerExample;
+			sourceTree = "<group>";
+		};
+		183EAA351930EB5700EA6F31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183EAA361930EB5700EA6F31 /* NDOverlayViewControllerExample-Info.plist */,
+				183EAA371930EB5700EA6F31 /* InfoPlist.strings */,
+				183EAA3A1930EB5700EA6F31 /* main.m */,
+				183EAA3C1930EB5700EA6F31 /* NDOverlayViewControllerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183EAA4D1930EB5700EA6F31 /* NDOverlayViewControllerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				183EAA531930EB5700EA6F31 /* NDOverlayViewControllerExampleTests.m */,
+				183EAA4E1930EB5700EA6F31 /* Supporting Files */,
+			);
+			path = NDOverlayViewControllerExampleTests;
+			sourceTree = "<group>";
+		};
+		183EAA4E1930EB5700EA6F31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183EAA4F1930EB5700EA6F31 /* NDOverlayViewControllerExampleTests-Info.plist */,
+				183EAA501930EB5700EA6F31 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E8D9D21930ECC0000ED748 /* NDOverlayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18E8D9D31930ED1F000ED748 /* NDOverlayViewController.h */,
+				18E8D9D41930ED1F000ED748 /* NDOverlayViewController.m */,
+				18E8D9D61930EF67000ED748 /* UIViewController+NDOverlayViewController.h */,
+				18E8D9D71930EF67000ED748 /* UIViewController+NDOverlayViewController.m */,
+			);
+			name = NDOverlayViewController;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183EAA2A1930EB5700EA6F31 /* NDOverlayViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183EAA571930EB5700EA6F31 /* Build configuration list for PBXNativeTarget "NDOverlayViewControllerExample" */;
+			buildPhases = (
+				183EAA271930EB5700EA6F31 /* Sources */,
+				183EAA281930EB5700EA6F31 /* Frameworks */,
+				183EAA291930EB5700EA6F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NDOverlayViewControllerExample;
+			productName = NDOverlayViewControllerExample;
+			productReference = 183EAA2B1930EB5700EA6F31 /* NDOverlayViewControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183EAA451930EB5700EA6F31 /* NDOverlayViewControllerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183EAA5A1930EB5700EA6F31 /* Build configuration list for PBXNativeTarget "NDOverlayViewControllerExampleTests" */;
+			buildPhases = (
+				183EAA421930EB5700EA6F31 /* Sources */,
+				183EAA431930EB5700EA6F31 /* Frameworks */,
+				183EAA441930EB5700EA6F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183EAA4C1930EB5700EA6F31 /* PBXTargetDependency */,
+			);
+			name = NDOverlayViewControllerExampleTests;
+			productName = NDOverlayViewControllerExampleTests;
+			productReference = 183EAA461930EB5700EA6F31 /* NDOverlayViewControllerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183EAA231930EB5700EA6F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ND;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Neil Davis";
+				TargetAttributes = {
+					183EAA451930EB5700EA6F31 = {
+						TestTargetID = 183EAA2A1930EB5700EA6F31;
+					};
+				};
+			};
+			buildConfigurationList = 183EAA261930EB5700EA6F31 /* Build configuration list for PBXProject "NDOverlayViewControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 183EAA221930EB5700EA6F31;
+			productRefGroup = 183EAA2C1930EB5700EA6F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183EAA2A1930EB5700EA6F31 /* NDOverlayViewControllerExample */,
+				183EAA451930EB5700EA6F31 /* NDOverlayViewControllerExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183EAA291930EB5700EA6F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183EAA391930EB5700EA6F31 /* InfoPlist.strings in Resources */,
+				183EAA411930EB5700EA6F31 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183EAA441930EB5700EA6F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183EAA521930EB5700EA6F31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183EAA271930EB5700EA6F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E8D9D81930EF67000ED748 /* UIViewController+NDOverlayViewController.m in Sources */,
+				183EAA3F1930EB5700EA6F31 /* NDAppDelegate.m in Sources */,
+				183EAA3B1930EB5700EA6F31 /* main.m in Sources */,
+				18E8D9DB193152F2000ED748 /* NDViewController.m in Sources */,
+				18E8D9D51930ED1F000ED748 /* NDOverlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183EAA421930EB5700EA6F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183EAA541930EB5700EA6F31 /* NDOverlayViewControllerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183EAA4C1930EB5700EA6F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183EAA2A1930EB5700EA6F31 /* NDOverlayViewControllerExample */;
+			targetProxy = 183EAA4B1930EB5700EA6F31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183EAA371930EB5700EA6F31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183EAA381930EB5700EA6F31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		183EAA501930EB5700EA6F31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183EAA511930EB5700EA6F31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183EAA551930EB5700EA6F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		183EAA561930EB5700EA6F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183EAA581930EB5700EA6F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NDOverlayViewControllerExample/NDOverlayViewControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "NDOverlayViewControllerExample/NDOverlayViewControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		183EAA591930EB5700EA6F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NDOverlayViewControllerExample/NDOverlayViewControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "NDOverlayViewControllerExample/NDOverlayViewControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		183EAA5B1930EB5700EA6F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NDOverlayViewControllerExample.app/NDOverlayViewControllerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NDOverlayViewControllerExample/NDOverlayViewControllerExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NDOverlayViewControllerExampleTests/NDOverlayViewControllerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		183EAA5C1930EB5700EA6F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NDOverlayViewControllerExample.app/NDOverlayViewControllerExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NDOverlayViewControllerExample/NDOverlayViewControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "NDOverlayViewControllerExampleTests/NDOverlayViewControllerExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183EAA261930EB5700EA6F31 /* Build configuration list for PBXProject "NDOverlayViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183EAA551930EB5700EA6F31 /* Debug */,
+				183EAA561930EB5700EA6F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183EAA571930EB5700EA6F31 /* Build configuration list for PBXNativeTarget "NDOverlayViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183EAA581930EB5700EA6F31 /* Debug */,
+				183EAA591930EB5700EA6F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183EAA5A1930EB5700EA6F31 /* Build configuration list for PBXNativeTarget "NDOverlayViewControllerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183EAA5B1930EB5700EA6F31 /* Debug */,
+				183EAA5C1930EB5700EA6F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183EAA231930EB5700EA6F31 /* Project object */;
+}
